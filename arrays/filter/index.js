@@ -2,6 +2,8 @@ const arr = ['🍎', '🍐', '🍊', '🍌']
 
 // filtra os elementos do array,
 // retornando um novo array contendo os valores desejados.
+// os valores que serão inclusos no novo array precisam
+// retornar true de acordo com a sentença que declararmos.
 // a função filter recebe 3 parâmetros: o elemento, o índice, e o array percorrido.
 const arrayContendoBanana = arr.filter((
   elemento,
